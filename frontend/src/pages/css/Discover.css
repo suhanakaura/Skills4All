@@ -1,0 +1,68 @@
+.loginh {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #119fca;
+  }
+  
+  .formlo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginlabel {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .loginin {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+  }
+  
+  .loginbt {
+    padding: 2vh 3vw;
+    background-color: #257eaa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .loginbt:hover {
+    background-color: #119fca;
+  }
+  
+  .logina {
+    text-decoration: none;
+    color: #257eaa;
+    font-size: 18px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .logina:hover {
+    color: #119fca;
+  }
+  
+  .loginp {
+    text-align: center;
+    margin: 8px;
+  }
+  .containerlogin {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    padding: 18vh 0 5vh 0 ;
+    
+    background: url('../../assets/bgimg.jpg') no-repeat center fixed;
+    background-size: cover;
+  }
